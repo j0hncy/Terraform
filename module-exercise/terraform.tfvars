@@ -1,0 +1,5 @@
+ec2-type = "t2.micro"
+ec2-ami = "ami-080e1f13689e07408"
+ec2-key = "terraform-key"
+security-group-id = "sg-031e6da51152b7dd4"
+subnet-id = "subnet-0c88c7ac25395feae"
