@@ -38,6 +38,7 @@ If you use Map variable to get the instance type, please use the line number 3 i
 Instance_type = var.instance_type_map[qa] This will assign t3 small
 
 How to create multiple resources having same configuration
+
 For this we have to use the “count” meta argument. Meta argument is used to change the behavior of a resource. So using count we could create multiple Ec2 instance with same set of configuration but with different tags. Below conf create 2 Ec2 with Tag : Count-Demo-[0,1]
 ![image](https://github.com/j0hncy/Terraform/assets/164562775/e4adba57-c35e-4d21-bc84-c6604deec45a)
 How to output the instance ids in loop in output
